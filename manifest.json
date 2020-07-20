@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "(Un)Muter",
+	"description": "A simple extension allowing user to mute and unmute his current tab with a keyboard shortcut.",
+	"version": "0.1",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"icons": {
+		"16": "icon16.png",
+		"64": "icon64.png",
+		"128": "icon128.png"
+	},
+	"permissions": ["tabs"],
+	"commands": {
+		"un_mute": {
+			"suggested_key": {
+				"default": "Ctrl+M"
+			},
+			"description": "Mute or unmute the current tab"
+		}
+	}
+}
