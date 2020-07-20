@@ -12,7 +12,7 @@
 		"64": "icon64.png",
 		"128": "icon128.png"
 	},
-	"permissions": ["tabs"],
+	"permissions": ["activeTab"],
 	"commands": {
 		"un_mute": {
 			"suggested_key": {
